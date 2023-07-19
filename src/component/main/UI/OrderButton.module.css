@@ -1,0 +1,77 @@
+.order-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #604EF8;
+    background-color: #fff;
+    color: #604EF8;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.order-button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: #604EF8;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.order {
+    height: 22%;
+}
+
+.finish {
+    height: 12%;
+}
+
+.order-container .order-button:hover,
+.order-container.active {
+    background-color: #604EF8;
+    color: white;
+}
+
+.order-container:hover {
+    background-color: #604EF8;
+    color: white;
+}
+
+.active {
+    background-color: #604EF8;
+    color: white;
+}
+
+.order-button:nth-child(2),
+.order-button:nth-child(3),
+.order-button:nth-child(4),
+.order-button:last-child {
+    border-top: none;
+}
+
+.order-container:nth-child(2),
+.order-container:nth-child(3),
+.order-container:nth-child(4),
+.order-container:last-child {
+    border-top: none;
+}

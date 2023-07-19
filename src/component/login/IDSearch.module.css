@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Search {
+  margin: 0 auto;
+  margin-top: 310px;
+  margin-bottom: 176px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 35.2px;
+  margin-bottom: 48px;
+}
+
+.search_option {
+  width: 486px;
+  display: flex;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-bottom: 31px;
+  cursor: pointer;
+}
+
+.search_option li {
+  flex-grow: 1;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 62px;
+  text-align: center;
+}
+
+.search_option li:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.bg {
+  background-color: rgba(245, 243, 255, 1);
+}
+
+.ID_SEARCH {
+  display: block;
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.ID_SEARCH label {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  margin-bottom: 9px;
+}
+
+.ID_SEARCH input {
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+}
+
+.ID_SEARCH input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.ID_SEARCH .name {
+  margin-bottom: 20px;
+}
+
+.ID_SEARCH .phone {
+  margin-bottom: 31px;
+}
+
+.bluebutton {
+  display: block;
+  margin: 0 auto;
+  width: 486px;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(96, 78, 248, 1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}

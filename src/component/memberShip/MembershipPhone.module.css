@@ -1,0 +1,228 @@
+.Search {
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 120px;
+}
+
+.search_option {
+  width: 486px;
+  display: flex;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-bottom: 31px;
+  cursor: pointer;
+}
+
+.search_option li {
+  flex-grow: 1;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 62px;
+  text-align: center;
+}
+
+.search_option li:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.bg {
+  background-color: rgba(245, 243, 255, 1);
+}
+
+.SIGNUP_PHONE {
+  display: block;
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.SIGNUP_PHONE label {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  margin-bottom: 9px;
+}
+
+.SIGNUP_PHONE input {
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+}
+
+.SIGNUP_PHONE input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.SIGNUP_PHONE .name {
+  margin-bottom: 20px;
+}
+
+.SIGNUP_PHONE .phone {
+  margin-bottom: 31px;
+}
+
+.bluebutton {
+  display: block;
+  margin: 0 auto;
+  width: 486px;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(96, 78, 248, 1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.IDSearchPhone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 486px;
+}
+
+.title {
+  display: block;
+  line-height: 35.2px;
+  margin-bottom: 48px;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.4px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.search_option {
+  width: inherit;
+  display: flex;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 31px;
+}
+
+.search_option li {
+  flex-grow: 1;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 62px;
+  text-align: center;
+}
+
+.search_option li:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.SIGNUP_PHONE {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.SIGNUP_PHONE label {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  margin-bottom: 9px;
+}
+
+.SIGNUP_PHONE input {
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.SIGNUP_PHONE input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.SIGNUP_PHONE .name {
+  margin-bottom: 20px;
+}
+
+.SIGNUP_PHONE .phone {
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.inputContainer .certification {
+  border: none;
+  width: 400px;
+}
+
+.inputContainer .remainingTime {
+  margin-right: 15px;
+  color: #f00;
+  text-align: right;
+  font-family: "Pretendard-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.SIGNUP_PHONE .phoneContainer {
+  margin-bottom: 20px;
+}
+
+.phoneBtn {
+  display: flex;
+  width: 150px;
+  height: 62px;
+  padding: 17px 20px;
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: "Pretendard-Regular", sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.phoneretry {
+  width: 486px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18.85px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 31px;
+}
+
+.phoneretry strong {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bluebutton {
+  width: 486px;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(96, 78, 248, 1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}

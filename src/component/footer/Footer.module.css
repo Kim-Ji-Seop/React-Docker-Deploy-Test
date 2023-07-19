@@ -1,0 +1,36 @@
+/* * {
+  outline: 1px solid #363;
+} */
+
+footer {
+  height: 71px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 14.3px;
+}
+
+footer ul {
+  display: flex;
+}
+
+.top {
+  width: 220px;
+  gap: 14px;
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 12px;
+}
+
+.top li {
+  display: flex;
+}
+
+.top li p {
+  margin-right: 10px;
+}
+
+.bottom {
+  width: 261px;
+  gap: 18px;
+  margin: 0 auto;
+}

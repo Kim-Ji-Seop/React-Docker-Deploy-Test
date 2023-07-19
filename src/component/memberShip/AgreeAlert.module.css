@@ -1,0 +1,89 @@
+* {
+  font-family: "Fira Sans";
+  box-sizing: border-box;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 771px;
+  height: 568px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #604ef8;
+  height: 55.8px;
+}
+
+.top .title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 55.8px;
+  color: #ffffff;
+  margin-left: 31px;
+}
+
+.top .close {
+  margin-top: 22px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.middle {
+  background: white;
+  padding: 20px 30px;
+}
+
+.middle .information ul {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.middle .information ul li {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15.6px;
+}
+
+.middle .information ul li:nth-child(1) {
+  flex-grow: 15;
+}
+.middle .information ul li:nth-child(2) {
+  text-align: right;
+  flex-grow: 1;
+}
+.middle .information ul li:nth-child(3) {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.middle .information p {
+  padding: 10px 7px;
+  height: 360.97px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13.2px;
+  border: 1px solid #dadada;
+  overflow-y: scroll;
+}
+
+.bottom {
+  position: relative;
+  height: 82px;
+  background-color: #f6f6f6;
+}
+
+.bottom button {
+  position: absolute;
+  bottom: 21px;
+  right: 30.5px;
+  width: 97.5px;
+  height: 31px;
+  border: 1px solid #604ef8;
+  border-radius: 5px;
+  cursor: pointer;
+}

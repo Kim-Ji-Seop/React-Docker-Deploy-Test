@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.MembershipInformation {
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.title {
+  display: block;
+  line-height: 35.2px;
+  margin-bottom: 48px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.4px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.left {
+  padding-top: 93px;
+  width: 422px;
+  margin-right: 61px;
+}
+
+.left p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 55px;
+}
+
+.left .profile {
+  display: flex;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.left .profile_left {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  color: rgba(0, 0, 0, 0.5);
+
+  width: 116px;
+}
+
+.left .profile_right {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+
+  width: 306px;
+}
+
+.right {
+  width: 486px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.right input {
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.right input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right .ID {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  width: 486px;
+  margin-bottom: 45px;
+}
+
+.right .PASSWORD {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  width: 486px;
+  margin-bottom: 45px;
+}
+
+.right .PASSWORD label:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right .EMAIL {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  width: 486px;
+}
+
+.right .EMAIL .email_input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .EMAIL .email_input input {
+  width: 217px;
+}
+
+.right .EMAIL .email_input label {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.right .EMAIL .email_link {
+  width: 486px;
+  height: 53px;
+}
+
+.right .EMAIL .email_link li {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.bluebutton {
+  display: block;
+  margin: 0 auto;
+  width: 486px;
+  height: 62px;
+  background-color: rgba(96, 78, 248, 1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
+}

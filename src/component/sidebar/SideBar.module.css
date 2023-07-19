@@ -1,0 +1,66 @@
+.wrapper {
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #fff;
+    height: 100%;
+    margin-top: 72px;
+    position: fixed;
+}
+
+.mainMenu {
+    width: 202px;
+    margin-top: 25px;
+    display: block;
+}
+
+.mainMenu li {
+    margin: 10px 0 10px 0;
+}
+
+.btn {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.subMenu {
+    transition: max-height 0.2s;
+    list-style: circle;
+}
+
+.subMenu a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.subMenu a:hover {
+    transition: all 0.1s;
+    color: #604EF8;
+}
+
+.subMenu a:last-child {
+    border: none;
+}
+
+.item:target .subMenu {
+    max-height: 10em;
+}
+
+.subMenu a:hover,
+.subMenu a.active {
+    color: #604EF8;
+    font-size: 16px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}

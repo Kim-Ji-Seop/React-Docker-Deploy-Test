@@ -1,0 +1,6 @@
+.order-container {
+    display: flex;
+    flex-direction: column;
+    width: 207px;
+    height: calc(100vh - 72px);
+}
